@@ -4,6 +4,7 @@ def cube(nombre):
 
 def main():
    
+    try:
         nombre = float(input("Entrez un nombre : "))
       
         resultat = cube(nombre)
